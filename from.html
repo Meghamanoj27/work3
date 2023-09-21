@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading_color{
+            color: red;
+        }
+        .form_style{
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: greenyellow;">
+    <div>
+     <form  class="form_style">
+             <h3 class="heading_color">Personal Details</h3>
+             <label for="name">Name:</label>
+             <input type="text" id="name"><br><br>
+             <label for="password">Password:</label>
+             <input type="password" id="password"><br><br>
+             <label for="email">Email Id:</label>
+             <input type="text" id="email"><br><br>
+             <label for="gender">Gender:</label>
+             <input type="radio" id="gender" name="gender" value="male"/> Male    
+             <input type="radio" id="gender" name="gender" value="female"/> Female <br>  <br> 
+             <label for="contact">Contact:</label>
+             <input type="text" id="contact"><br>
+             <h3 class="heading_color">Educational Qualification</h3>
+
+             <label for="degree">Degree:</label>
+              <select name="degree" id="degree">
+                    <option value="default">--Select Group--</option>
+                    <option value="bca">BCA</option>
+                    <option value="bsc">MSc</option>
+                    <option value="bba">BBA</option>
+               </select><br><br>
+              <label for="engineering">Engineering:</label>
+                <select name="engineering" id="engineering">
+                    <option value="default">--Select Group--</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="civil">Civil</option>
+                    <option value="electronics">Electronics</option>
+               </select><br><br>
+               <label for="hobby">Hobbies:</label>
+               <input type="checkbox" id="hobby1" name="hobby1" value="Playing chess">
+               <label for="hobby1"> Playing chess</label>
+               <input type="checkbox" id="hobby2" name="hobby2" value="Reading Books">
+               <label for="hobby2"> Reading Books</label><br>
+
+             <h3 class="heading_color">Address</h3>
+             <textarea id="w3review" name="w3review" rows="5" cols="50"></textarea>
+             <br><br>
+             <label for="myfile">Attach resume:</label>
+             <input type="file" id="myfile" name="myfile"><br><br>
+             <button style="background-color: orangered; width: 100px; height: 50px; border-radius: 5px; color: beige;" type="submit" value="Submit">Submit</button>
+     </form>
+    </div>
+</body>
+</html>

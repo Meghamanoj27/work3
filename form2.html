@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            color: red;
+        }
+        /* .form_style{
+            width: 300px;
+            margin: 0 auto;
+        } */
+        div{
+            width: 400px;
+            margin: 0 auto;
+            background-color: yellowgreen;
+        }
+        .heading1{
+            margin-left: 120px;
+        }
+        .heading2{
+            margin-left: 90px;
+        }
+        .heading3{
+            margin-left: 150px;
+        }
+        #label1{
+            margin-left: 80px;
+        }
+        #name{
+            margin-right: 80px;
+            margin-bottom: 10px;
+        }
+        #label2{
+            margin-left: 60px;
+        } 
+        #password{
+            margin-right: 80px;
+            margin-bottom: 10px;
+        }
+        #label3{
+            margin-left: 65px;
+        } 
+        #email{
+            margin-right: 80px;
+            margin-bottom: 10px;
+        }
+        #label4{
+            margin-left: 75px;
+        } 
+        /* .gen{
+            margin-right: 80px;
+        } */
+        #gender{
+            margin-bottom: 10px;
+        }
+
+        #label5{
+           
+            margin-left: 77.4px;
+        }
+        #label6{
+           
+           margin-left: 99px;
+       }
+       #degree{
+        margin-right: 80px;
+        margin-bottom: 10px;
+       }
+       #label7{
+           
+           margin-left: 89px;
+       }
+       #engineering{
+        margin-right: 80px;
+        margin-bottom: 10px;
+       }
+       #label8{
+           
+           margin-left: 66px;
+       }
+      #review{
+        margin-left: 70px;
+        margin-bottom: 10px;
+      }
+      #label9{
+           
+           margin-left: 42px;
+       }
+       #myfile{
+        margin-bottom: 10px;
+       }
+       #button{
+        margin-left: 140px;
+       }
+    </style>
+</head>
+<body>
+    <div>
+     <form  class="form_style">
+             <h3 class="heading1">Personal Details</h3>
+             <label id="label1" for="name">Name:</label>
+             <input type="text" id="name">
+             <label id="label2" for="password">Password:</label>
+             <input type="password" id="password">
+             <label id="label3" for="email">Email Id:</label>
+             <input type="text" id="email">
+             <label id="label4" for="gender">Gender:</label>
+             <input type="radio" id="gender" name="gender" value="male"/> Male    
+             <input type="radio" id="gender" name="gender" value="female"/> Female 
+             <label id="label5" for="contact">Contact:</label>
+             <input type="text" id="contact">
+             <h3 class="heading2">Educational Qualification</h3>
+
+             <label id="label6" for="degree">Degree:</label>
+              <select name="degree" id="degree">
+                    <option value="default">--Select Group--</option>
+                    <option value="bca">BCA</option>
+                    <option value="bsc">MSc</option>
+                    <option value="bba">BBA</option>
+               </select>
+              <label id="label7" for="engineering">Engineering:</label>
+                <select name="engineering" id="engineering">
+                    <option value="default">--Select Group--</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="civil">Civil</option>
+                    <option value="electronics">Electronics</option>
+               </select>
+               <label id="label8"  for="hobby">Hobbies:</label>
+               <input type="checkbox" id="hobby1" name="hobby1" value="Playing chess">
+               <label for="hobby1"> Playing chess</label>
+               <input type="checkbox" id="hobby2" name="hobby2" value="Reading Books">
+               <label for="hobby2"> Reading Books</label>
+
+             <h3 class="heading3">Address</h3>
+             <textarea id="review" name="review" rows="5" cols="30"></textarea>
+             
+             <label id="label9" for="myfile">Attach resume:</label>
+             <input type="file" id="myfile" name="myfile">
+             <button id="button" style="background-color: orangered; width: 100px; height: 50px; border-radius: 5px; color: beige;" type="submit" value="Submit">Submit</button>
+     </form>
+    </div>
+</body>
+</html>
